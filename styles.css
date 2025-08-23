@@ -75,3 +75,20 @@
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+
+
+
+
+/* contact.hmtl Dosyasi */
+.contact {
+    width: 60%;
+    padding: 50px;
+    margin: 50px;
+}
+.contact-info {
+    font-size: 20px;
+}
+.contact a {
+    text-decoration: none;
+}

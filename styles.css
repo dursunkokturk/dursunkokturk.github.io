@@ -1,0 +1,42 @@
+/* index.html Dosyasi */
+
+* {
+    font-family: monospace;
+}
+.banner h1 {
+    font-size: 30px;
+    width: 300px;
+}
+.banner p {
+    font-size: 20px;
+}
+.menus {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.menus li {
+    list-style: none;
+    background-color: blue;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.menus li a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.presentation-1 {
+    font-size: 50px;
+    text-align: center;
+}
+.presentation-2 {
+    font-size: 20px;
+    text-align: center;
+}
+.presentation-3 {
+    font-size: 20px;
+    text-align: center;
+}

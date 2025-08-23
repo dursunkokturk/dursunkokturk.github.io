@@ -40,3 +40,38 @@
     font-size: 20px;
     text-align: center;
 }
+
+
+
+
+
+/* about.html Dosyasi */
+
+.training-process {
+    width: 80%;
+    padding: 50px;
+    margin: 50px;
+}
+.training-process-title {
+    font-size: 30px;
+}
+.training-process-highschool {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.training-process-associate-degree {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.training-process-undergraduate-education {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.after-completing-bachelor {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

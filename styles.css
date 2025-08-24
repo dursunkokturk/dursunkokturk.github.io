@@ -92,3 +92,29 @@
 .contact a {
     text-decoration: none;
 }
+
+
+/* projects.html dosyasi */
+
+.front-end-projects h1 {
+    text-align: center;
+}
+.javascript-projects {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.javascript-projects p {
+    font-size: 15px;
+}
+.javascript-projects p a {
+    text-decoration: none;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+}
+.container {
+    padding: 2px 16px;
+}

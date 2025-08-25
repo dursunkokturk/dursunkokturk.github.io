@@ -29,7 +29,7 @@
     text-decoration: none;
 }
 .presentation-1 {
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
 }
 .presentation-2 {
@@ -95,20 +95,13 @@
 
 
 /* projects.html dosyasi */
-
-.front-end-projects h1 {
-    text-align: center;
-}
-.javascript-projects {
-    width: 1000px;
+.project {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
-.javascript-projects p {
-    font-size: 15px;
-}
-.javascript-projects p a {
-    text-decoration: none;
+.project-title h1 {
+    text-align: center;
 }
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -117,4 +110,7 @@
 }
 .container {
     padding: 2px 16px;
+}
+.container p {
+    font-size: 15px;
 }

@@ -120,3 +120,121 @@
 .container p {
     font-size: 15px;
 }
+
+
+@media only screen and (max-width: 767px) {
+
+    /* index.html Dosyasi */
+    .banner h1 {
+        font-size: 20px;
+        width: 300px;
+    }
+    .banner p {
+        font-size: 15px;
+    }
+    .menus {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+    .menus li {
+        list-style: none;
+        background-color: blue;
+        padding: 5px;
+        margin: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .menus li a {
+        font-size: 15px;
+        color: white;
+        text-decoration: none;
+    }
+    .presentation-1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .presentation-2 {
+        font-size: 15px;
+        text-align: center;
+    }
+    .presentation-3 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    /* projects.html Dosyasi */
+    .project {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .project-title h1 {
+        text-align: center;
+        font-size: 25px;
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width: 98%;
+    }
+    .container {
+        padding: 2px 16px;
+    }
+    .container p {
+        font-size: 15px;
+    }
+
+    /* about.html Dosyasi */
+    .training-process {
+        width: 80%;
+        padding: 10px;
+        margin: 10px;
+    }
+    .training-process-title {
+        font-size: 20px;
+    }
+    .training-process-highschool {
+        font-size: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .training-process-associate-degree {
+        font-size: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .training-process-undergraduate-education {
+        font-size: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .after-completing-bachelor {
+        font-size: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+
+
+    /* contact.hmtl Dosyasi */
+    .contact {
+        width: 60%;
+        padding: 20px;
+        margin: 20px;
+    }
+    .contact-title {
+        font-size: 20px;
+    }
+    .contact-info {
+        font-size: 15px;
+    }
+    .contact a {
+        text-decoration: none;
+    }
+}

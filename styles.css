@@ -122,13 +122,13 @@
 .container p {
     font-size: 15px;
 }
-.container img {
-    width: 200px;
-    height: 250px;
-}
 .container .img {
     display: flex;
     justify-content: center;
+}
+.container img {
+    width: 200px;
+    height: 250px;
 }
 
 

@@ -1,14 +1,15 @@
 /* index.html Dosyasi */
 
 * {
-    font-family: monospace;
+    font-family: Montserrat;
 }
 .banner h1 {
     font-size: 30px;
     width: 300px;
 }
-.banner p {
+.banner h3 {
     font-size: 20px;
+    font-weight: 600;
 }
 .menus {
     display: flex;

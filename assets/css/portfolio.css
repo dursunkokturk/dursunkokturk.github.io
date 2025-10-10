@@ -36,7 +36,9 @@
   text-decoration: none;
 }
 
-.presentation-1 {
+.presentation-1,
+.presentation-2,
+.presentation-3 {
   font-family: Open Sans;
   font-size: 30px;
   text-align: center;
@@ -44,9 +46,7 @@
 
 .presentation-2,
 .presentation-3 {
-  font-family: Open Sans;
   font-size: 20px;
-  text-align: center;
 }
 
 

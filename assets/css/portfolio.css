@@ -30,18 +30,21 @@
 }
 
 .menus li a {
+  font-family: Open Sans;
   font-size: 20px;
   color: white;
   text-decoration: none;
 }
 
 .presentation-1 {
+  font-family: Open Sans;
   font-size: 30px;
   text-align: center;
 }
 
 .presentation-2,
 .presentation-3 {
+  font-family: Open Sans;
   font-size: 20px;
   text-align: center;
 }

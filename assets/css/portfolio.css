@@ -160,10 +160,18 @@
 
 /* contact.hmtl Dosyasi */
 .contact {
-  width: 60%;
-  padding: 50px;
-  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  margin-inline: auto;
 }
+
+/* .contact .linkedin {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+} */
 
 .contact-info {
   font-size: 20px;
@@ -173,6 +181,17 @@
   text-decoration: none;
 }
 
+.contact-info a {
+  text-decoration: none;
+}
+
+.contact-info a:link {
+  color: blue;
+}
+
+.contact-info a:visited {
+  color: blue;
+}
 
 
 
@@ -316,7 +335,15 @@
     font-size: 15px;
   }
 
-  .contact a {
+  .contact-info a {
     text-decoration: none;
+  }
+
+  .contact-info a:link {
+    color: blue;
+  }
+
+  .contact-info a:visited {
+    color: blue;
   }
 }

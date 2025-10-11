@@ -93,6 +93,10 @@
   justify-content: center;
 }
 
+.container .img .html-projects {
+  width: 100%;
+}
+
 .container img {
   width: 200px;
   height: 250px;

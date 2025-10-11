@@ -88,6 +88,10 @@
   font-size: 15px;
 }
 
+.container p a {
+  text-decoration: none;
+}
+
 .container .img {
   display: flex;
   justify-content: center;

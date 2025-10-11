@@ -160,10 +160,18 @@
 
 /* contact.hmtl Dosyasi */
 .contact {
-  width: 60%;
-  padding: 50px;
-  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  margin-inline: auto;
 }
+
+/* .contact .linkedin {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+} */
 
 .contact-info {
   font-size: 20px;

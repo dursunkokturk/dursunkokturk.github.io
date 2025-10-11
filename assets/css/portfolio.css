@@ -23,8 +23,8 @@
 .menus li {
   list-style: none;
   background-color: blue;
-  padding: 20px;
-  margin: 20px;
+  padding: 10px 20px;
+  /* margin: 20px; */
   border-radius: 50px;
   cursor: pointer;
 }
@@ -91,6 +91,10 @@
 .container .img {
   display: flex;
   justify-content: center;
+}
+
+.container .img .html-projects {
+  width: 100%;
 }
 
 .container img {

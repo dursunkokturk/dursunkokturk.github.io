@@ -173,6 +173,17 @@
   text-decoration: none;
 }
 
+.contact-info a {
+  text-decoration: none;
+}
+
+.contact-info a:link {
+  color: blue;
+}
+
+.contact-info a:visited {
+  color: blue;
+}
 
 
 
@@ -318,5 +329,13 @@
 
   .contact-info a {
     text-decoration: none;
+  }
+
+  .contact-info a:link {
+    color: blue;
+  }
+
+  .contact-info a:visited {
+    color: blue;
   }
 }

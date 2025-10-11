@@ -92,6 +92,14 @@
   text-decoration: none;
 }
 
+.container p a:link {
+  color: blue;
+}
+
+.container p a:visited {
+  color: blue;
+}
+
 .container .img {
   display: flex;
   justify-content: center;

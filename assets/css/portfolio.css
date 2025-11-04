@@ -4,37 +4,41 @@
   font-family: Montserrat;
 }
 
-.banner h1 {
-  font-size: 30px;
-  width: 300px;
-}
+.banner {
 
-.banner h3 {
-  font-size: 20px;
-  font-weight: 600;
+  h1 {
+    font-size: 30px;
+    width: 300px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    font-weight: 600;
+  }
 }
 
 .menus {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  
+  li {
+    list-style: none;
+    background-color: blue;
+    padding: 10px 20px;
+    /* margin: 20px; */
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  a {
+    font-family: Open Sans;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+  }
 }
 
-.menus li {
-  list-style: none;
-  background-color: blue;
-  padding: 10px 20px;
-  /* margin: 20px; */
-  border-radius: 50px;
-  cursor: pointer;
-}
-
-.menus li a {
-  font-family: Open Sans;
-  font-size: 20px;
-  color: white;
-  text-decoration: none;
-}
 
 .presentation-1,
 .presentation-2,
@@ -82,38 +86,39 @@
 
 .container {
   padding: 2px 16px;
+  
+  p {
+    font-family: Open Sans;
+    font-size: 15px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:link {
+    color: blue;
+  }
+  
+  a:visited {
+    color: blue;
+  }
+  
+  .img {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .html-projects {
+    width: 100%;
+  }
+  
+  img {
+    width: 200px;
+    height: 250px;
+  }
 }
 
-.container p {
-  font-family: Open Sans;
-  font-size: 15px;
-}
-
-.container p a {
-  text-decoration: none;
-}
-
-.container p a:link {
-  color: blue;
-}
-
-.container p a:visited {
-  color: blue;
-}
-
-.container .img {
-  display: flex;
-  justify-content: center;
-}
-
-.container .img .html-projects {
-  width: 100%;
-}
-
-.container img {
-  width: 200px;
-  height: 250px;
-}
 
 
 
@@ -125,29 +130,29 @@
   width: 80%;
   padding: 50px;
   margin: 50px;
+  .training-process-title {
+    font-size: 30px;
+  }
+  
+  .training-process-highschool {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .training-process-associate-degree {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .training-process-undergraduate-education {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
 
-/* .training-process-title {
-  font-size: 30px;
-} */
-
-.training-process-highschool {
-  /* font-size: 20px; */
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.training-process-associate-degree {
-  font-size:k 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.training-process-undergraduate-education {
-  /* font-size: 20px; */
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
 
 .after-completing-bachelor {
   /* font-size: 20px; */
@@ -166,33 +171,28 @@
   justify-content: center;
   width: 40%;
   margin-inline: auto;
+  
+  .contact-info {
+    font-size: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:link {
+    color: blue;
+  }
+  
+  a:visited {
+    color: blue;
+  }
 }
 
-/* .contact .linkedin {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-} */
-
-.contact-info {
-  font-size: 20px;
-}
-
-.contact a {
-  text-decoration: none;
-}
-
-.contact-info a {
-  text-decoration: none;
-}
-
-.contact-info a:link {
-  color: blue;
-}
-
-.contact-info a:visited {
-  color: blue;
-}
 
 
 

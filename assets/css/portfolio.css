@@ -289,4 +289,27 @@
       width: 339px;
     }
   }
+
+  .contact-us-text-and-button {
+    margin-bottom: 96px;
+
+    .contact-me {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 0px;
+
+      h1 {
+        width: 400px;
+        display: flex;
+        justify-content: flex-start;
+      }
+
+      a {
+        padding: 17px 32px;
+        margin-inline: 20px;
+        margin-top: 20px;
+        margin-bottom: 75px;
+      }
+    }
+  }
 }

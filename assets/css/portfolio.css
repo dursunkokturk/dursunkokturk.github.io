@@ -225,7 +225,7 @@
 /* Tablet Start */
 @media (width > 767px) {
 
-  /* index.html dosyasi */
+  /* index.html File Start */
   .container {
     margin: auto;
     border: 1px solid black;
@@ -332,4 +332,5 @@
       }
     }
   }
+  /* index.html File End */
 }

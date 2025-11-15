@@ -312,4 +312,24 @@
       }
     }
   }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 0px;
+
+    .up-down-white {
+      margin-inline: 39px;
+    }
+
+    .menus {
+      flex-direction: row;
+      margin-right: 100px;
+
+      a {
+        margin-right: 43px;
+      }
+    }
+  }
 }

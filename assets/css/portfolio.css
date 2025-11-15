@@ -5,7 +5,7 @@
 }
 
 /* Mobile Start */
-/* index.html File Start */
+/* index.html File Mobile Start */
 .container {
   margin: auto;
   border: 1px solid black;
@@ -215,7 +215,7 @@
   }
 }
 
-/* index.html File End */
+/* index.html File Mobile End */
 /* Mobile End */
 
 
@@ -225,7 +225,7 @@
 /* Tablet Start */
 @media (width > 767px) {
 
-  /* index.html File Start */
+  /* index.html File Tablet Start */
   .container {
     margin: auto;
     border: 1px solid black;
@@ -234,6 +234,7 @@
   .up-down-close {
     margin-top: 64px;
   }
+
   .nav {
     display: flex;
     justify-content: space-between;
@@ -332,5 +333,30 @@
       }
     }
   }
-  /* index.html File End */
+
+  /* index.html File Tablet End */
+}
+
+
+
+
+
+/* Computer Start */
+@media (width > 1109px) {
+
+  /* index.html File Computer Start */
+  .container {
+    margin: auto;
+    border: 1px solid black;
+    width: 1109px;
+  }
+
+  .short-promotional-text-and-about-me-image {
+
+    .about-me {
+      width: 200px;
+      height: 48px;
+    }
+  }
+  
 }

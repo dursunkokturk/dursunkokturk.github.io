@@ -5,7 +5,7 @@
 }
 
 /* Mobile Start */
-/* index.html dosyasi */
+/* index.html File Start */
 .container {
   margin: auto;
   border: 1px solid black;
@@ -172,3 +172,47 @@
     }
   }
 }
+
+.footer {
+  background-color: #33323D;
+  padding-top: 56px;
+  padding-bottom: 56px;
+
+  .up-down-white {
+    width: 60px;
+    height: 32px;
+    display: flex;
+    margin-inline: 157px;
+    margin-bottom: 40px;
+  }
+
+  .menus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    a {
+      font-family: Public Sans;
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: 2px;
+      color: white;
+      text-decoration: none;
+      margin-bottom: 32px;
+    }
+  }
+
+  .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    img {
+      width: 25px;
+      height: 25px;
+      margin-right: 16px;
+    }
+  }
+}
+/* index.html File End */
+/* Mobile End */

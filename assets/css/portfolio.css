@@ -266,4 +266,12 @@
       }
     }
   }
+
+  .short-promotional-text-and-about-me-image {
+
+    .about-me {
+      width: 200px;
+      height: 48px;
+    }
+  }
 }

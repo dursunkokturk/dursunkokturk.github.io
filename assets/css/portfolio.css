@@ -5,7 +5,11 @@
 }
 
 /* Mobile Start */
+<<<<<<< HEAD
 /* index.html File Start */
+=======
+/* index.html File Mobile Start */
+>>>>>>> portfolio
 .container {
   margin: auto;
   border: 1px solid black;
@@ -214,5 +218,228 @@
     }
   }
 }
-/* index.html File End */
+
+/* index.html File Mobile End */
 /* Mobile End */
+
+
+
+
+
+/* Tablet Start */
+@media (width > 767px) {
+
+  /* index.html File Tablet Start */
+  .container {
+    margin: auto;
+    border: 1px solid black;
+  }
+
+  .up-down-close {
+    margin-top: 64px;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* Yapilan Islem Degistirilmedigi Surece 
+    Tum Ekran Boyutlarinda Ayni Kabul Edilir */
+    .main-menu {
+      display: flex;
+      gap: 8px;
+
+      li {
+        list-style: none;
+        font-family: Public Sans;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 100%;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+
+        a {
+          text-decoration: none;
+          color: inherit;
+          margin-right: 30px;
+        }
+      }
+
+      .hamburger-menu-handle {
+        display: none;
+      }
+    }
+  }
+
+  .short-promotional-text-and-about-me-image {
+
+    .about-me {
+      width: 200px;
+      height: 48px;
+    }
+  }
+
+  .photo-about-and-projects-go-button {
+    display: flex;
+    flex-direction: row;
+
+    .photo-me {
+      img {
+        width: 281px;
+      }
+    }
+
+    .about {
+      width: 339px;
+    }
+  }
+
+  .contact-us-text-and-button {
+    margin-bottom: 96px;
+
+    .contact-me {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 0px;
+
+      h1 {
+        width: 400px;
+        display: flex;
+        justify-content: flex-start;
+      }
+
+      a {
+        padding: 17px 32px;
+        margin-inline: 20px;
+        margin-top: 20px;
+        margin-bottom: 75px;
+      }
+    }
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 0px;
+
+    .up-down-white {
+      margin-inline: 39px;
+    }
+
+    .menus {
+      flex-direction: row;
+      margin-right: 100px;
+
+      a {
+        margin-right: 43px;
+      }
+    }
+  }
+
+  /* index.html File Tablet End */
+}
+
+
+
+
+
+/* Computer Start */
+@media (width > 1109px) {
+
+  /* index.html File Computer Start */
+  .container {
+    margin: auto;
+    border: 1px solid black;
+    width: 1109px;
+  }
+
+  .short-promotional-text-and-about-me-image {
+
+    .about-me {
+      width: 200px;
+      height: 48px;
+    }
+  }
+
+  .photo-about-and-projects-go-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+
+    .photo-me {
+      img {
+        width: 400px;
+        height: 500px;
+      }
+    }
+
+    .about {
+      h4 {
+        width: 350px;
+      }
+    }
+  }
+
+  .contact-us-text-and-button {
+    margin-bottom: 96px;
+
+    .contact-me {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 0px;
+
+      h1 {
+        width: 400px;
+        display: flex;
+        justify-content: flex-start;
+        margin-right: 400px;
+      }
+
+      a {
+        padding: 17px 32px;
+        margin-inline: 20px;
+        margin-top: 20px;
+        margin-bottom: 75px;
+      }
+    }
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 0px;
+
+    .up-down-white {
+      margin-inline: 50px;
+    }
+
+    .menus {
+      flex-direction: row;
+      margin-right: 410px;
+
+      a {
+        margin-right: 43px;
+      }
+    }
+
+    .social {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      img {
+        width: 25px;
+        height: 25px;
+        margin-right: 16px;
+      }
+    }
+  }
+
+  /* index.html File Computer End */
+}
+
+/* Computer End */

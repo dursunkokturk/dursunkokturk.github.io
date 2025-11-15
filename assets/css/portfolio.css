@@ -5,7 +5,7 @@
 }
 
 /* Mobile Start */
-/* index.html dosyasi */
+/* index.html File Start */
 .container {
   margin: auto;
   border: 1px solid black;
@@ -79,3 +79,140 @@
     }
   }
 }
+
+.photo-about-and-projects-go-button {
+
+  .photo-me {
+    margin-inline: 32px;
+    margin-bottom: 32px;
+
+    img {
+      width: 311px;
+      height: 346px;
+    }
+  }
+
+  .about {
+    width: 311px;
+    margin-inline: 32px;
+    margin-bottom: 51px;
+
+    .line-top {
+      border: 1px solid #33323D;
+      width: 311px;
+      margin-bottom: 51px;
+      opacity: 15%;
+    }
+
+    h1 {
+      font-family: Ibarra Real Nova;
+      font-size: 40px;
+      font-weight: 700;
+      letter-spacing: -0.36px;
+      margin-top: 32px;
+      margin-bottom: 28px;
+    }
+
+    h4 {
+      font-family: Public Sans;
+      font-size: 16px;
+      font-weight: 400;
+      color: #33323D;
+      line-height: 30px;
+      margin-bottom: 24px;
+    }
+
+    a {
+      font-family: Public Sans;
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: 2px;
+      padding: 17px 32px;
+      text-decoration: none;
+      border: 1px solid black;
+      margin-bottom: 50px;
+    }
+
+    .line-bottom {
+      border: 1px solid #33323D;
+      width: 311px;
+      margin-top: 46px;
+      margin-bottom: 115px;
+      opacity: 15%;
+    }
+  }
+}
+
+.contact-us-text-and-button {
+
+  .contact-me {
+    margin-bottom: 80px;
+
+    h1 {
+      font-family: Ibarra Real Nova;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 42px;
+      letter-spacing: -0.36px;
+      text-align: center;
+      margin-bottom: 40px;
+      width: 311px;
+      margin-inline: 32px;
+    }
+
+    a {
+      font-family: Public Sans;
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: 2px;
+      padding: 17px 32px;
+      text-decoration: none;
+      border: 1px solid black;
+      margin-inline: 85px;
+    }
+  }
+}
+
+.footer {
+  background-color: #33323D;
+  padding-top: 56px;
+  padding-bottom: 56px;
+
+  .up-down-white {
+    width: 60px;
+    height: 32px;
+    display: flex;
+    margin-inline: 157px;
+    margin-bottom: 40px;
+  }
+
+  .menus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    a {
+      font-family: Public Sans;
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: 2px;
+      color: white;
+      text-decoration: none;
+      margin-bottom: 32px;
+    }
+  }
+
+  .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    img {
+      width: 25px;
+      height: 25px;
+      margin-right: 16px;
+    }
+  }
+}
+/* index.html File End */
+/* Mobile End */

@@ -274,4 +274,19 @@
       height: 48px;
     }
   }
+
+  .photo-about-and-projects-go-button {
+    display: flex;
+    flex-direction: row;
+
+    .photo-me {
+      img {
+        width: 281px;
+      }
+    }
+
+    .about {
+      width: 339px;
+    }
+  }
 }

@@ -42,3 +42,40 @@
     background-color: black;
   }
 }
+
+.short-promotional-text-and-about-me-image {
+
+  h1 {
+    font-family: Ibarra Real Nova;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.36px;
+    margin-inline: 32px;
+    margin-bottom: 32px;
+  }
+
+  .about-me {
+    width: 200;
+    height: 48;
+    opacity: 1;
+    top: 599px;
+    left: 32px;
+    background: #203A4C;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 32px;
+    margin-right: 143px;
+    margin-bottom: 96px;
+
+    h4 {
+      font-family: Public Sans;
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: 2px;
+      color: white;
+      margin-inline: 30px;
+    }
+  }
+}

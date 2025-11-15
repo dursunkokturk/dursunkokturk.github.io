@@ -1,350 +1,81 @@
-/* index.html Dosyasi */
-
 * {
-  font-family: Montserrat;
+  margin: 0;
+  bottom: 0;
+  box-sizing: border-box;
 }
 
-.banner {
+/* Mobile Start */
+/* index.html dosyasi */
+.container {
+  margin: auto;
+  border: 1px solid black;
+}
+
+.up-down-close {
+  display: flex;
+  margin-top: 32px;
+  margin-bottom: 40px;
+
+  .up-down {
+    margin-right: 270px;
+  }
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* Yapilan Islem Degistirilmedigi Surece 
+    Tum Ekran Boyutlarinda Ayni Kabul Edilir */
+  .main-menu {
+    display: none;
+    gap: 8px;
+
+    li {
+      list-style: none;
+    }
+  }
+
+  .hamburger-menu-handle {
+    display: flex;
+    background-color: black;
+  }
+}
+
+.short-promotional-text-and-about-me-image {
 
   h1 {
-    font-size: 30px;
-    width: 300px;
+    font-family: Ibarra Real Nova;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.36px;
+    margin-inline: 32px;
+    margin-bottom: 32px;
   }
-  
-  h3 {
-    font-size: 20px;
-    font-weight: 600;
-  }
-}
 
-.menus {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  
-  li {
-    list-style: none;
-    background-color: blue;
-    padding: 10px 20px;
-    /* margin: 20px; */
-    border-radius: 50px;
-    cursor: pointer;
-  }
-  
-  a {
-    font-family: Open Sans;
-    font-size: 20px;
-    color: white;
-    text-decoration: none;
-  }
-}
-
-
-.presentation-1,
-.presentation-2,
-.presentation-3 {
-  font-family: Open Sans;
-  font-size: 30px;
-  text-align: center;
-}
-
-.presentation-2,
-.presentation-3 {
-  font-size: 20px;
-}
-
-
-
-
-
-/* projects.html dosyasi */
-.project {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.project-title h2 {
-  text-align: center;
-}
-
-.cards {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-  width: 40%;
-  background-color: lightgray;
-  margin: 10px;
-  border-radius: 3%;
-}
-
-.container {
-  padding: 2px 16px;
-  
-  p {
-    font-family: Open Sans;
-    font-size: 15px;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  a:link {
-    color: blue;
-  }
-  
-  a:visited {
-    color: blue;
-  }
-  
-  .img {
+  .about-me {
+    width: 200;
+    height: 48;
+    opacity: 1;
+    top: 599px;
+    left: 32px;
+    background: #203A4C;
     display: flex;
-    justify-content: center;
-  }
-  
-  .html-projects {
-    width: 100%;
-  }
-  
-  img {
-    width: 200px;
-    height: 250px;
-  }
-}
-
-
-
-
-
-
-/* about.html Dosyasi */
-
-.training-process {
-  width: 80%;
-  padding: 50px;
-  margin: 50px;
-  .training-process-title {
-    font-size: 30px;
-  }
-  
-  .training-process-highschool {
-    font-size: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-  
-  .training-process-associate-degree {
-    font-size: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-  
-  .training-process-undergraduate-education {
-    font-size: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-}
-
-
-.after-completing-bachelor {
-  /* font-size: 20px; */
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-
-
-
-
-/* contact.hmtl Dosyasi */
-.contact {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 40%;
-  margin-inline: auto;
-  
-  .contact-info {
-    font-size: 20px;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  a:link {
-    color: blue;
-  }
-  
-  a:visited {
-    color: blue;
-  }
-}
-
-
-
-
-
-@media only screen and (max-width: 767px) {
-
-  /* index.html Dosyasi */
-  .banner h1 {
-    font-size: 20px;
-    width: 300px;
-  }
-
-  .banner p {
-    font-size: 15px;
-  }
-
-  .menus {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-  }
-
-  .menus li {
-    list-style: none;
-    background-color: blue;
-    padding: 5px;
-    margin: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-
-  .menus li a {
-    font-size: 15px;
-    color: white;
-    text-decoration: none;
-    padding-left: 30px;
-  }
-
-  .presentation-1 {
-    font-size: 20px;
-    text-align: center;
-  }
-
-  .presentation-2 {
-    font-size: 15px;
-    text-align: center;
-  }
-
-  .presentation-3 {
-    font-size: 15px;
-    text-align: center;
-  }
-
-  /* projects.html Dosyasi */
-  .project {
-    display: flex;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
-  }
+    margin-left: 32px;
+    margin-right: 143px;
+    margin-bottom: 96px;
 
-  .project-title h1 {
-    text-align: center;
-    font-size: 25px;
-  }
-
-  .cards {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 15px;
-    margin-bottom: 15px;
-  }
-
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    width: 98%;
-    margin: 10px;
-    background-color: lightgray;
-  }
-
-  .container {
-    padding: 2px 16px;
-  }
-
-  .container p {
-    font-size: 15px;
-  }
-
-  /* about.html Dosyasi */
-  .training-process {
-    width: 80%;
-    padding: 10px;
-    margin: 10px;
-  }
-
-  .training-process-title {
-    font-size: 20px;
-  }
-
-  .training-process-highschool {
-    font-size: 15px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
-  .training-process-associate-degree {
-    font-size: 15px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
-  .training-process-undergraduate-education {
-    font-size: 15px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
-  .after-completing-bachelor {
-    font-size: 15px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
-
-
-  /* contact.hmtl Dosyasi */
-  .contact {
-    width: 60%;
-    padding: 20px;
-    margin: 20px;
-  }
-
-  .contact-title {
-    font-size: 20px;
-  }
-
-  .contact-info {
-    font-size: 15px;
-  }
-
-  .contact-info a {
-    text-decoration: none;
-  }
-
-  .contact-info a:link {
-    color: blue;
-  }
-
-  .contact-info a:visited {
-    color: blue;
+    h4 {
+      font-family: Public Sans;
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: 2px;
+      color: white;
+      margin-inline: 30px;
+    }
   }
 }

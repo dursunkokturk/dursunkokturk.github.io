@@ -590,6 +590,27 @@
   }
 
   /* index.html File Computer End */
+
+
+
+  /* projects.html File Computer Start */
+  .project-1-photo-title-description-buttons {
+    display: flex;
+  }
+
+  .project-1-photo-title-description-buttons {
+    img {
+      width: 540px;
+      height: 500px;
+      margin: 0px;
+    }
+
+    h1,
+    h4 {
+      width: 350px;
+    }
+  }
+  /* projects.html File Computer End */
 }
 
 /* Computer End */

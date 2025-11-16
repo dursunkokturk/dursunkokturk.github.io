@@ -273,6 +273,60 @@
     }
   }
 }
+
+.project-2-photo-title-description-buttons {
+  margin-bottom: 97px;
+
+  img {
+    width: 311px;
+    height: 288px;
+    display: block;
+    margin-inline: auto;
+    margin-bottom: 32px;
+  }
+
+  .title-description-buttons {
+    margin-inline: 32px;
+
+    h1 {
+      font-family: Ibarra Real Nova;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 42px;
+      letter-spacing: -0.36px;
+    }
+
+    h4 {
+      width: 311px;
+      font-family: Public Sans;
+      font-size: 15px;
+      line-height: 30px;
+    }
+
+    .links {
+      margin-top: 32px;
+
+      a {
+        font-family: Public Sans;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        padding: 17px 32px;
+        text-decoration: none;
+        margin-inline: auto;
+        border: 1px solid black;
+      }
+    }
+
+    .project-line-bottom {
+      border: 1px solid #33323D;
+      width: 311px;
+      margin-top: 100px;
+      margin-bottom: 115px;
+      opacity: 15%;
+    }
+  }
+}
 /* projects.html File Mobile End */
 
 

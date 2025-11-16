@@ -450,6 +450,27 @@
   }
 
   /* index.html File Tablet End */
+
+
+
+  /* projects.html File Tablet Start */
+  .project-1-photo-title-description-buttons {
+    display: flex;
+  }
+
+  .project-1-photo-title-description-buttons {
+    img {
+      width: 339px;
+      height: 314px;
+      margin-right: 69px;
+    }
+
+    h1,
+    h4 {
+      width: 281px;
+    }
+  }
+  /* projects.html File Tablet End */
 }
 
 

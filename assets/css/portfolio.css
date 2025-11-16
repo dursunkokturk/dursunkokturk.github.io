@@ -610,6 +610,24 @@
       width: 350px;
     }
   }
+
+  .project-2-photo-title-description-buttons {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .project-2-photo-title-description-buttons {
+    img {
+      width: 540px;
+      height: 500px;
+      margin: 0px;
+    }
+
+    h1,
+    h4 {
+      width: 350px;
+    }
+  }
   /* projects.html File Computer End */
 }
 

@@ -8,7 +8,7 @@
 /* index.html File Mobile Start */
 .container {
   margin: auto;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .up-down-close {
@@ -343,7 +343,7 @@
   /* index.html File Tablet Start */
   .container {
     margin: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
   }
 
   .up-down-close {
@@ -501,7 +501,7 @@
   /* index.html File Computer Start */
   .container {
     margin: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 1109px;
   }
 

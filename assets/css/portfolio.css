@@ -255,6 +255,7 @@
         font-weight: 400;
         letter-spacing: 2px;
         padding: 17px 32px;
+        color: inherit;
         text-decoration: none;
         margin-inline: auto;
         border: 1px solid black;
@@ -310,6 +311,7 @@
         font-weight: 400;
         letter-spacing: 2px;
         padding: 17px 32px;
+        color: inherit;
         text-decoration: none;
         margin-inline: auto;
         margin-right: 15px;

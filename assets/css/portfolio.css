@@ -8,7 +8,6 @@
 /* index.html File Mobile Start */
 .container {
   margin: auto;
-  /* border: 1px solid black; */
 }
 
 .up-down-close {
@@ -17,17 +16,9 @@
   padding: 10px;
   margin-top: 32px;
   margin-bottom: 40px;
-
-  /* .up-down {
-    margin-right: 270px;
-  } */
 }
 
 .nav {
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center; */
-
   /* Yapilan Islem Degistirilmedigi Surece 
     Tum Ekran Boyutlarinda Ayni Kabul Edilir */
   .main-menu {
@@ -331,6 +322,95 @@
 }
 /* projects.html File Mobile End */
 
+
+/* contact.html dosyasi */
+.contact {
+  margin-bottom: 100px;
+
+  h1,h3,
+  h5,p {
+    margin-inline: 32px;
+  }
+
+  h1 {
+    font-family: Ibarra Real Nova;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.36px;
+    margin-bottom: 24px;
+  }
+
+  h3 {
+    font-family: Ibarra Real Nova;
+    margin-bottom: 10px;
+  }
+
+  h5 {
+    font-family: Public Sans;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    margin-bottom: 24px;
+  }
+
+  p {
+    font-family: Public Sans;
+    margin-bottom: 20px;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  /* form {
+    margin-inline: 32px;
+
+    label {
+      font-family: Public Sans;
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 30px;
+      letter-spacing: 0px;
+      margin-bottom: 8px;
+    }
+
+    input {
+      width: 311px;
+      background-color: #d8d7d7;
+      margin-bottom: 24px;
+      padding: 9px 200px 9px 16px;
+    }
+
+    textarea {
+      width: 311px;
+      margin-bottom: 24px;
+      background-color: #d8d7d7;
+      padding: 9px 140px 57px 16px;
+    }
+
+    .send-message {
+      font-family: Public Sans;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 100%;
+      letter-spacing: 2px;
+      text-align: center;
+      text-transform: uppercase;
+      margin-bottom: 80px;
+
+      a {
+        text-decoration: none;
+        width: 200px;
+        height: 48px;
+        background-color: #203A4C;
+        color: white;
+        padding: 17px 24px 17px 24px;
+      }
+    }
+  } */
+}
 
 
 /* Mobile End */

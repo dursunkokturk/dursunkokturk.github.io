@@ -412,6 +412,30 @@
   } */
 }
 
+.about {
+
+  h1,
+  h3 {
+    font-family: Iberra Real Nova;
+    margin-bottom: 20px;
+  }
+
+  .training-process {
+
+    h2,
+    h3 {
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-family: Iberra Real Nova;
+    }
+
+    h3 {
+      font-family: Public Sans;
+    }
+  }
+}
 
 /* Mobile End */
 

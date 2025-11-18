@@ -125,6 +125,7 @@
       font-weight: 400;
       letter-spacing: 2px;
       padding: 17px 32px;
+      color: inherit;
       text-decoration: none;
       border: 1px solid black;
       margin-bottom: 50px;
@@ -163,6 +164,7 @@
       font-weight: 400;
       letter-spacing: 2px;
       padding: 17px 32px;
+      color: inherit;
       text-decoration: none;
       border: 1px solid black;
       margin-inline: 85px;

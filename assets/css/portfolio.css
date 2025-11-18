@@ -258,6 +258,7 @@
         text-decoration: none;
         margin-inline: auto;
         border: 1px solid black;
+        margin-right: 15px;
       }
     }
 
@@ -311,6 +312,7 @@
         padding: 17px 32px;
         text-decoration: none;
         margin-inline: auto;
+        margin-right: 15px;
         border: 1px solid black;
       }
     }

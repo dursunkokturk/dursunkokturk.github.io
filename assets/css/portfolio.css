@@ -377,9 +377,9 @@
         }
       }
 
-      .hamburger-menu-handle {
-        display: none;
-      }
+    }
+    .hamburger-menu-handle {
+      display: none;
     }
   }
 

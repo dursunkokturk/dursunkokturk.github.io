@@ -13,18 +13,20 @@
 
 .up-down-close {
   display: flex;
+  justify-content: space-between;
+  padding: 10px;
   margin-top: 32px;
   margin-bottom: 40px;
 
-  .up-down {
+  /* .up-down {
     margin-right: 270px;
-  }
+  } */
 }
 
 .nav {
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; */
 
   /* Yapilan Islem Degistirilmedigi Surece 
     Tum Ekran Boyutlarinda Ayni Kabul Edilir */

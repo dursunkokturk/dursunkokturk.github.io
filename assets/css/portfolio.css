@@ -393,6 +393,11 @@
       font-family: Public Sans;
     }
   }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
 }
 
 /* Mobile End */

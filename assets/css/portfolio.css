@@ -10,7 +10,7 @@
   margin: auto;
 }
 
-.up-down-close {
+.logo-and-nav {
   display: flex;
   justify-content: space-between;
   padding: 10px;
@@ -410,7 +410,7 @@
     /* border: 1px solid black; */
   }
 
-  .up-down-close {
+  .logo-and-nav {
     margin-top: 64px;
   }
 

@@ -10,6 +10,96 @@
   margin: auto;
 }
 
+.mobile-menu .menu {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 30px;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+
+    li {
+      color: white;
+    }
+
+    a {
+      color: white;
+      font-weight: 500;
+    }
+  }
+
+}
+
+.mobile-menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mobile-menu-inner {
+  width: 223px;
+  /* height: 186px; */
+  /* height: 100%; */
+  /* margin-left: auto; */
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.mobile-menu-content {
+  background-color: #33323D;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px;
+  padding-top: 32px;
+  overflow-y: auto;
+
+  ul {
+    list-style: none;
+  }
+  li {
+    a {
+      font-family: Public Sans;
+      font-weight: 400;
+      font-size: 12px;
+      color: white;
+      line-height: 100%;
+      letter-spacing: 2px;
+      text-align: center;
+      margin-bottom: 32px;
+      text-decoration: none;
+    }
+  }
+}
+
+.mobile-menu-header {
+  padding: 10px 6px;
+  display: flex;
+  justify-content: end;
+
+  a {
+    cursor: pointer;
+    padding: 10px;
+  }
+}
+
+.mobile-menu-handler {
+  cursor: pointer;
+
+  input {
+    display: none;
+  }
+}
+
+body:has(#mobile-menu-handler:checked) .mobile-menu {
+  display: block;
+}
+
 .logo-and-nav {
   display: flex;
   justify-content: space-between;
@@ -418,6 +508,10 @@
     /* border: 1px solid black; */
   }
 
+  .mobile-menu {
+    display: none;
+  }
+
   .logo-and-nav {
     margin-top: 64px;
   }
@@ -559,6 +653,10 @@
     margin: auto;
     /* border: 1px solid black; */
     width: 1109px;
+  }
+
+  .mobile-menu {
+    display: none;
   }
 
   .short-promotional-text-and-about-me-image {

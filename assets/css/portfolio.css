@@ -37,6 +37,9 @@
 .mobile-menu {
   display: none;
   justify-content: flex-end;
+  position: absolute;
+  right: 0;
+  top: 22px;
 }
 
 .mobile-menu-inner {
@@ -46,7 +49,11 @@
   /* margin-left: auto; */
   display: flex;
   flex-direction: column;
-  margin-right: 32px;
+  /* margin-right: 32px; */
+}
+
+#mobile-menu-handler {
+  display: none;
 }
 
 .mobile-menu-content {
@@ -92,7 +99,11 @@
 }
 
 body:has(#mobile-menu-handler:checked) .mobile-menu {
-  display: block;
+  display: flex;
+}
+
+body:has(#mobile-menu-handler:checked) .hamburger-menu-handle {
+  display: none;
 }
 
 .logo-and-nav {

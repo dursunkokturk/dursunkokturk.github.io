@@ -178,7 +178,6 @@ body:has(#mobile-menu-handler:checked) .hamburger-menu-handle {
 
     img {
       width: 311px;
-      /* height: 346px; */
     }
   }
 

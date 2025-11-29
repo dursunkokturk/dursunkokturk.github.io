@@ -545,7 +545,7 @@ body:has(#mobile-menu-handler:checked) .hamburger-menu-handle {
       margin-bottom: 0px;
 
       h1 {
-        width: 400px;
+        width: 405px;
         display: flex;
         justify-content: flex-start;
       }

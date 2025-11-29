@@ -311,6 +311,15 @@ body:has(#mobile-menu-handler:checked) .hamburger-menu-handle {
 
 
 /* projects.html File Mobile Start */
+.project-part-title {
+  font-family: Public Sans;
+  font-size: 32px;
+  text-align: center;
+  display: block;
+  margin-inline: auto;
+  margin-bottom: 40px;
+}
+
 .project-photo-title-description-buttons {
   margin-bottom: 97px;
 

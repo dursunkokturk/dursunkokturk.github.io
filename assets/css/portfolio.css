@@ -601,6 +601,10 @@ body:has(#mobile-menu-handler:checked) .hamburger-menu-handle {
     }
   }
 
+  .project-photo-title-description-buttons:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
   /* projects.html File Tablet End */
 }
 

@@ -102,6 +102,16 @@ body:has(#mobile-menu-handler:checked) .hamburger-menu-handle {
   display: none;
 }
 
+
+.language-buttons {
+  font-family: Public Sans;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+  color: inherit;
+  padding: 20px;
+}
+
 .logo-and-nav {
   display: flex;
   justify-content: space-between;

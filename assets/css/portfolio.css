@@ -611,7 +611,7 @@ body:has(#mobile-menu-handler:checked) .hamburger-menu-handle {
     }
   }
 
-  .project-photo-title-description-buttons:nth-child(even) {
+  .project-photo-title-description-buttons:nth-child(odd) {
     flex-direction: row-reverse;
   }
 
@@ -742,7 +742,7 @@ body:has(#mobile-menu-handler:checked) .hamburger-menu-handle {
     }
   }
 
-  .project-photo-title-description-buttons:nth-child(even) {
+  .project-photo-title-description-buttons:nth-child(odd) {
     flex-direction: row-reverse;
   }
 

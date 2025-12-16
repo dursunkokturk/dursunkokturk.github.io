@@ -112,6 +112,11 @@ body:has(#mobile-menu-handler:checked) .hamburger-menu-handle {
   padding: 20px;
 }
 
+.flag {
+  width: 20px;
+  height: 15px;
+}
+
 .logo-and-nav {
   display: flex;
   justify-content: space-between;

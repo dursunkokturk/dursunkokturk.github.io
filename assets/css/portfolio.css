@@ -114,7 +114,7 @@ body:has(#mobile-menu-handler:checked) .hamburger-menu-handle {
 
 .flag {
   width: 20px;
-  height: 20px;
+  height: 15px;
 }
 
 .logo-and-nav {

@@ -116,7 +116,7 @@ body:has(#mobile-menu-handler:checked) .hamburger-menu-handle {
   display: flex;
   justify-content: space-between;
   padding: 10px;
-  margin-top: 32px;
+  margin-top: 5px;
   margin-bottom: 40px;
 }
 
@@ -486,7 +486,7 @@ body:has(#mobile-menu-handler:checked) .hamburger-menu-handle {
   }
 
   .logo-and-nav {
-    margin-top: 64px;
+    margin-top: 5px;
   }
 
   .nav {
@@ -634,6 +634,10 @@ body:has(#mobile-menu-handler:checked) .hamburger-menu-handle {
 
   .mobile-menu {
     display: none;
+  }
+
+  .logo-and-nav {
+    margin-top: 5px;
   }
 
   .short-promotional-text-and-about-me-image {

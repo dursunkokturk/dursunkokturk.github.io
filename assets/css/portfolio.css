@@ -608,7 +608,6 @@ body:has(#mobile-menu-handler:checked) .hamburger-menu-handle {
   /* index.html File Computer Start */
   .container {
     margin: auto;
-    /* border: 1px solid black; */
     width: 1109px;
   }
 
@@ -620,12 +619,9 @@ body:has(#mobile-menu-handler:checked) .hamburger-menu-handle {
     margin-top: 5px;
   }
 
-  .short-promotional-text-and-about-me-image {
-
-    .about-me {
-      width: 200px;
-      height: 48px;
-    }
+  .short-promotional-text-and-about-me-image .about-me {
+    width: 200px;
+    height: 48px;
   }
 
   .photo-about-and-projects-go-button {
@@ -633,43 +629,39 @@ body:has(#mobile-menu-handler:checked) .hamburger-menu-handle {
     flex-direction: row;
     justify-content: center;
     gap: 40px;
+  }
 
-    .photo-me {
-      img {
-        width: 400px;
-        height: 500px;
-      }
-    }
+  .photo-about-and-projects-go-button .photo-me img {
+    width: 400px;
+    height: 500px;
+  }
 
-    .about {
-      h4 {
-        width: 350px;
-      }
-    }
+  .photo-about-and-projects-go-button .about h4 {
+    width: 350px;
   }
 
   .contact-us-text-and-button {
     margin-bottom: 96px;
+  }
 
-    .contact-me {
-      display: flex;
-      flex-direction: row;
-      margin-bottom: 0px;
+  .contact-us-text-and-button .contact-me {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+  }
 
-      h1 {
-        width: 405px;
-        display: flex;
-        justify-content: flex-start;
-        margin-right: 400px;
-      }
+  .contact-us-text-and-button .contact-me h1 {
+    width: 405px;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 400px;
+  }
 
-      a {
-        padding: 17px 32px;
-        margin-inline: 20px;
-        margin-top: 20px;
-        margin-bottom: 75px;
-      }
-    }
+  .contact-us-text-and-button .contact-me a {
+    padding: 17px 32px;
+    margin-inline: 20px;
+    margin-top: 20px;
+    margin-bottom: 75px;
   }
 
   .footer {
@@ -677,31 +669,31 @@ body:has(#mobile-menu-handler:checked) .hamburger-menu-handle {
     flex-direction: row;
     padding-top: 20px;
     padding-bottom: 0px;
+  }
 
-    .up-down-white {
-      margin-inline: 50px;
-    }
+  .footer .up-down-white {
+    margin-inline: 50px;
+  }
 
-    .menus {
-      flex-direction: row;
-      margin-right: 410px;
+  .footer .menus {
+    flex-direction: row;
+    margin-right: 410px;
+  }
 
-      a {
-        margin-right: 43px;
-      }
-    }
+  .footer .menus a {
+    margin-right: 43px;
+  }
 
-    .social {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
+  .footer .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 
-      img {
-        width: 25px;
-        height: 25px;
-        margin-right: 16px;
-      }
-    }
+  .footer .social img {
+    width: 25px;
+    height: 25px;
+    margin-right: 16px;
   }
 
   /* index.html File Computer End */

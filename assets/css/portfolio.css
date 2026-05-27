@@ -481,80 +481,74 @@ body:has(#mobile-menu-handler:checked) .hamburger-menu-handle {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    /* Yapilan Islem Degistirilmedigi Surece 
-    Tum Ekran Boyutlarinda Ayni Kabul Edilir */
-    .main-menu {
-      display: flex;
-      gap: 8px;
-
-      li {
-        list-style: none;
-        font-family: Public Sans;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 100%;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-
-        a {
-          text-decoration: none;
-          color: inherit;
-          margin-right: 30px;
-        }
-      }
-
-    }
-
-    .hamburger-menu-handle {
-      display: none;
-    }
   }
 
-  .short-promotional-text-and-about-me-image {
+  /* Yapilan Islem Degistirilmedigi Surece 
+  Tum Ekran Boyutlarinda Ayni Kabul Edilir */
+  .nav .main-menu {
+    display: flex;
+    gap: 8px;
+  }
 
-    .about-me {
-      width: 200px;
-      height: 48px;
-    }
+  .nav .main-menu li {
+    list-style: none;
+    font-family: Public Sans;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .nav .main-menu li a {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 30px;
+  }
+
+  .hamburger-menu-handle {
+    display: none;
+  }
+
+  .short-promotional-text-and-about-me-image .about-me {
+    width: 200px;
+    height: 48px;
   }
 
   .photo-about-and-projects-go-button {
     display: flex;
     flex-direction: row;
+  }
 
-    .photo-me {
-      img {
-        width: 281px;
-      }
-    }
+  .photo-about-and-projects-go-button .photo-me img {
+    width: 281px;
+  }
 
-    .about {
-      width: 339px;
-    }
+  .photo-about-and-projects-go-button .about {
+    width: 339px;
   }
 
   .contact-us-text-and-button {
     margin-bottom: 96px;
+  }
 
-    .contact-me {
-      display: flex;
-      flex-direction: row;
-      margin-bottom: 0px;
+  .contact-us-text-and-button .contact-me {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+  }
 
-      h1 {
-        width: 405px;
-        display: flex;
-        justify-content: flex-start;
-      }
+  .contact-us-text-and-button .contact-me h1 {
+    width: 405px;
+    display: flex;
+    justify-content: flex-start;
+  }
 
-      a {
-        padding: 17px 32px;
-        margin-inline: 20px;
-        margin-top: 20px;
-        margin-bottom: 75px;
-      }
-    }
+  .contact-us-text-and-button .contact-me a {
+    padding: 17px 32px;
+    margin-inline: 20px;
+    margin-top: 20px;
+    margin-bottom: 75px;
   }
 
   .footer {
@@ -562,19 +556,19 @@ body:has(#mobile-menu-handler:checked) .hamburger-menu-handle {
     flex-direction: row;
     padding-top: 20px;
     padding-bottom: 0px;
+  }
 
-    .up-down-white {
-      margin-inline: 39px;
-    }
+  .footer .up-down-white {
+    margin-inline: 39px;
+  }
 
-    .menus {
-      flex-direction: row;
-      margin-right: 100px;
+  .footer .menus {
+    flex-direction: row;
+    margin-right: 100px;
+  }
 
-      a {
-        margin-right: 43px;
-      }
-    }
+  .footer .menus a {
+    margin-right: 43px;
   }
 
   /* index.html File Tablet End */

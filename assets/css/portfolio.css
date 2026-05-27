@@ -705,17 +705,15 @@ body:has(#mobile-menu-handler:checked) .hamburger-menu-handle {
     display: flex;
   }
 
-  .project-photo-title-description-buttons {
-    img {
-      width: 540px;
-      height: 500px;
-      margin: 0px;
-    }
+  .project-photo-title-description-buttons img {
+    width: 540px;
+    height: 500px;
+    margin: 0px;
+  }
 
-    h1,
-    h4 {
-      width: 350px;
-    }
+  .project-photo-title-description-buttons h1,
+  .project-photo-title-description-buttons h4 {
+    width: 350px;
   }
 
   .project-photo-title-description-buttons:nth-child(odd) {

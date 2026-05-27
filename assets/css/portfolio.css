@@ -449,6 +449,10 @@ body:has(#mobile-menu-handler:checked) .hamburger-menu-handle {
   font-weight: 400;
 }
 
+.about .training-process ul li{
+  font-family: Public Sans;
+}
+
 .about .training-process a {
   text-decoration: none;
   color: inherit;

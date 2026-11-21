@@ -435,6 +435,11 @@ body:has(#mobile-menu-handler:checked) .hamburger-menu-handle {
   margin-bottom: 20px;
 }
 
+.about .explain{
+  font-family: Public Sans;
+  font-weight: 400;
+}
+
 .about .training-process h2,
 .about .training-process h3 {
   margin-bottom: 20px;

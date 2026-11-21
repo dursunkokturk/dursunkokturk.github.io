@@ -149,6 +149,12 @@ body:has(#mobile-menu-handler:checked) .hamburger-menu-handle {
   margin-bottom: 32px;
 }
 
+.short-promotional-text-and-about-me-image .index-explain {
+  font-family: Public Sans;
+  margin-inline: 32px;
+  margin-bottom: 32px;
+}
+
 .short-promotional-text-and-about-me-image .about-me {
   width: 200px;
   height: 48px;
@@ -435,7 +441,7 @@ body:has(#mobile-menu-handler:checked) .hamburger-menu-handle {
   margin-bottom: 20px;
 }
 
-.about .explain{
+.about .explain {
   font-family: Public Sans;
   font-weight: 400;
 }
@@ -454,7 +460,7 @@ body:has(#mobile-menu-handler:checked) .hamburger-menu-handle {
   font-weight: 400;
 }
 
-.about .training-process ul li{
+.about .training-process ul li {
   font-family: Public Sans;
 }
 
